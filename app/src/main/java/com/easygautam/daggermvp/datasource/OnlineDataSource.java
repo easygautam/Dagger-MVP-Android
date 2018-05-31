@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class OnlineDataSource {
 
-    List<User> users ;
+    private List<User> users ;
 
     public OnlineDataSource() {
         users = new ArrayList<>();
@@ -19,7 +19,7 @@ public class OnlineDataSource {
         users.add(new User(1, "Gautam", "gautam90055@gmail.com"));
         users.add(new User(1, "Gautam", "gautam90055@gmail.com"));
         users.add(new User(1, "Gautam", "gautam90055@gmail.com"));
-        users.add(new User(1, "Gautam", "gautam90055@gmail.com"));
+
     }
 
     public List<User> getUsers() {
